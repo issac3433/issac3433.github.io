@@ -253,12 +253,39 @@
       <button id="darkModeToggle" class="dark-mode-toggle" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
     </div>
   </nav>
-
-  <!-- Hero Section -->
   <header data-aos="fade-up">
-    <h1>Nathaniel Issac</h1>
-    <p>Computer Science Student | Renewable Energy Enthusiast | Passionate In Finance And Crypto</p>
-  </header>
+    <div class="header-container">
+        <img src="portfolio.jpg" alt="Profile Picture">
+        <div class="text-content">
+            <h1>Nathaniel Issac</h1>
+            <p>Computer Science Student | Renewable Energy Enthusiast | Passionate In Finance And Crypto</p>
+        </div>
+    </div>
+</header>
+
+<style>
+    .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Centers the text horizontally */
+        text-align: center; /* Centers text inside the div */
+        gap: 50px; /* Adds spacing between image and text */
+    }
+
+    .header-container img {
+        width: 150px; /* Adjust as needed */
+        height: auto;
+    }
+
+    .text-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Ensures text is centered under h1 */
+    }
+</style>
+
+
+
 
   <div class="container">
     <!-- About Section -->
